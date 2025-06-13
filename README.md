@@ -1,15 +1,18 @@
-# GIG Cymru NHS Wales - Architecture Decision Records
+# GIG Cymru NHS Wales - {Documentation Site Title}
 
-[![mkdocs](https://github.com/GIG-Cymru-NHS-Wales/Architecture-Decision-Records/actions/workflows/publish.yml/badge.svg)](https://github.com/GIG-Cymru-NHS-Wales/Architecture-Decision-Records/actions/workflows/publish.yml)
+> ## Replace all references to `documentation-site-template` in this repository with the name of the repository derived from this template
+>
+> You will also need to update the following files:
+>
+> ```sh
+> ./Makefile
+> ./mkdocs.yml
+> ./pyproject.toml
+> ```
 
-The documents in this repository are published to [https://gig-cymru-nhs-wales.github.io/Architecture-Decision-Records/](https://gig-cymru-nhs-wales.github.io/Architecture-Decision-Records/).
+[![mkdocs](https://github.com/GIG-Cymru-NHS-Wales/documentation-site-template/actions/workflows/publish.yml/badge.svg)](https://github.com/GIG-Cymru-NHS-Wales/documentation-site-template/actions/workflows/publish.yml)
 
-An Architecture Decision Record (ADR) is a document that captures an important architecture decision made along with its context and consequences.
-
-## Introduction
-
-* [Why write architecture decision records - By GitHub Engineering](https://github.blog/engineering/architecture-optimization/why-write-adrs/)
-* [A practical overview on Architecture Decision Records](https://ctaverna.github.io/adr/)
+The documents in this repository are published to [https://gig-cymru-nhs-wales.github.io/documentation-site-template/](https://gig-cymru-nhs-wales.github.io/documentation-site-template/).
 
 ## Getting Started
 
@@ -19,7 +22,7 @@ There are several ways to set up your development environment:
 
 The fastest way to start contributing:
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/GIG-Cymru-NHS-Wales/Architecture-Decision-Records?quickstart=1)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/GIG-Cymru-NHS-Wales/documentation-site-template?quickstart=1)
 
 This provides:
 
@@ -32,7 +35,7 @@ Once you have successfully launched Codespaces you can run the
 development server from the VS Code Terminal:
 
 ```bash
-    uv run mkdocs serve
+    make run
 ```
 
 You will be prompted to **Open in Browser** to view the locally running site.
@@ -56,8 +59,8 @@ is faster on subsequent launches as the environment is then cached.
 Clone the repository:
 
 ```bash
-    git clone https://github.com/GIG-Cymru-NHS-Wales/Architecture-Decision-Records.git
-    cd Architecture-Decision-Records
+    git clone https://github.com/GIG-Cymru-NHS-Wales/documentation-site-template.git
+    cd documentation-site-template
 ```
 
 Install uv (if not already installed):

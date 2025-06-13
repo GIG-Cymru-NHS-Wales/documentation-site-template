@@ -1,6 +1,6 @@
-site_name: GIG Cymru NHS Wales - Architecture
-site_url: https://gig-cymru-nhs-wales.github.io/Architecture-Decision-Records/
-repo_url: https://github.com/GIG-Cymru-NHS-Wales/Architecture-Decision-Records/
+site_name: GIG Cymru NHS Wales - {Site Name}
+site_url: https://gig-cymru-nhs-wales.github.io/documentation-site-template/
+repo_url: https://github.com/GIG-Cymru-NHS-Wales/documentation-site-template/
 docs_dir: doc
 edit_uri: edit/main/doc/
 extra_css:
