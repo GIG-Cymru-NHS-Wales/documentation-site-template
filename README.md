@@ -1,14 +1,32 @@
 # GIG Cymru NHS Wales - {Documentation Site Title}
 
-> ## Replace all references to `documentation-site-template` in this repository with the name of the repository derived from this template
+> ## How to use this template
 >
-> You will also need to update the following files:
+> ### 1. Create a new repository based on this template
+>
+> See [GitHub Creating a Repository from a Template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+>
+> ### 2. Replace all references to `documentation-site-template`
+>
+> Replace this with the name of your new repository derived from this template.
+>
+> Specifically will need to update the following files:
 >
 > ```sh
-> ./Makefile
-> ./mkdocs.yml
-> ./pyproject.toml
+> Makefile
+> mkdocs.yml
+> pyproject.toml
+> README.md
 > ```
+>
+> ### 3. Setup GitHub Pages
+>
+> In the Settings for your repository in GitHub.com under the **Pages**
+section, ensure the `source` is set to **Deploy from a branch** and select
+`gh_pages` as the branch.
+>
+
+---
 
 [![mkdocs](https://github.com/GIG-Cymru-NHS-Wales/documentation-site-template/actions/workflows/publish.yml/badge.svg)](https://github.com/GIG-Cymru-NHS-Wales/documentation-site-template/actions/workflows/publish.yml)
 
